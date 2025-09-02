@@ -28,12 +28,10 @@ import {
 } from '@/components/ui/sidebar';
 import { navItems } from '@/constants/data';
 import { useMediaQuery } from '@/hooks/use-media-query';
-import { SignOutButton } from '@clerk/nextjs';
 import {
   IconBell,
   IconChevronRight,
   IconCreditCard,
-  IconLogout,
   IconPhotoUp,
   IconUserCircle
 } from '@tabler/icons-react';
@@ -167,10 +165,6 @@ export default function AppSidebar() {
                   </DropdownMenuItem>
                 </DropdownMenuGroup>
                 <DropdownMenuSeparator />
-                <DropdownMenuItem>
-                  <IconLogout className='mr-2 h-4 w-4' />
-                  <SignOutButton redirectUrl='/auth/sign-in' />
-                </DropdownMenuItem>
               </DropdownMenuContent>
             </DropdownMenu>
           </SidebarMenuItem>
