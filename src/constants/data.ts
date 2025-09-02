@@ -10,7 +10,7 @@ export const navItems: NavItem[] = [
     items: [] // Empty array as there are no child items for Dashboard
   },
   {
-    title: 'Second Page',
+    title: 'Secondary Page',
     url: '/dashboard/secondary',
     icon: 'kanban',
     shortcut: ['p', 'p'],
