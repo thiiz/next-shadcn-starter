@@ -7,11 +7,7 @@ export const metadata = {
   title: 'Dashboard'
 };
 
-type pageProps = {
-  searchParams: Promise<SearchParams>;
-};
-
-export default async function Page(props: pageProps) {
+export default async function Page() {
   return (
     <PageContainer scrollable={false}>
       <div className='flex flex-1 flex-col space-y-4'>
