@@ -6,7 +6,6 @@ import { cn } from '@/lib/utils';
 import type { Metadata, Viewport } from 'next';
 import { cookies } from 'next/headers';
 import NextTopLoader from 'nextjs-toploader';
-import { NuqsAdapter } from 'nuqs/adapters/next/app';
 import './globals.css';
 import './theme.css';
 
@@ -57,20 +56,18 @@ export default async function RootLayout({
         )}
       >
         <NextTopLoader showSpinner={false} />
-        <NuqsAdapter>
-          <ThemeProvider
-            attribute='class'
-            defaultTheme='system'
-            enableSystem
-            disableTransitionOnChange
-            enableColorScheme
-          >
-            <Providers activeThemeValue={activeThemeValue as string}>
-              <Toaster />
-              {children}
-            </Providers>
-          </ThemeProvider>
-        </NuqsAdapter>
+        <ThemeProvider
+          attribute='class'
+          defaultTheme='system'
+          enableSystem
+          disableTransitionOnChange
+          enableColorScheme
+        >
+          <Providers activeThemeValue={activeThemeValue as string}>
+            <Toaster />
+            {children}
+          </Providers>
+        </ThemeProvider>
       </body>
     </html>
   );

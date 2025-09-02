@@ -1,7 +1,6 @@
 import PageContainer from '@/components/layout/page-container';
 import { Heading } from '@/components/ui/heading';
 import { Separator } from '@/components/ui/separator';
-import { SearchParams } from 'nuqs/server';
 
 export const metadata = {
   title: 'Dashboard'
