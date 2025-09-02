@@ -1,3 +1,1 @@
-export const onRequestError = () => {
-  
-}
+export const onRequestError = () => {};

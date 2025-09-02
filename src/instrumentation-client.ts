@@ -1,3 +1,1 @@
-export const onRouterTransitionStart = () => {
-
-}
+export const onRouterTransitionStart = () => {};

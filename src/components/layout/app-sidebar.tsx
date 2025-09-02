@@ -86,7 +86,7 @@ export default function AppSidebar() {
               const Icon = item.icon ? Icons[item.icon] : Icons.logo;
               return item?.items && item?.items?.length > 0 ? (
                 <Collapsible
-                  key={item.title}  
+                  key={item.title}
                   asChild
                   defaultOpen={item.isActive}
                   className='group/collapsible'

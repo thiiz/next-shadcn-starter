@@ -1,5 +1,5 @@
-import PageContainer from "@/components/layout/page-container";
-import { Heading } from "@/components/ui/heading";
+import PageContainer from '@/components/layout/page-container';
+import { Heading } from '@/components/ui/heading';
 
 export default function SecondaryPage() {
   return (
@@ -9,5 +9,5 @@ export default function SecondaryPage() {
         description='next and shadcn starter template'
       />
     </PageContainer>
-  )
+  );
 }

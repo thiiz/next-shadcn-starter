@@ -37,5 +37,5 @@ export const navItems: NavItem[] = [
         icon: 'login'
       }
     ]
-  },
+  }
 ];
