@@ -8,21 +8,21 @@ A starter template for building Next.js applications with Shadcn/ui. This projec
 
 This starter template includes:
 
--   **Next.js 15**: The latest version of the popular React framework.
--   **Shadcn/ui**: A collection of beautifully designed, accessible, and customizable UI components.
--   **Tailwind CSS**: A utility-first CSS framework for rapid UI development.
--   **ESLint and Prettier**: For code linting and formatting, to ensure code quality and consistency.
--   **Husky and lint-staged**: To run linters on staged files before committing.
--   **bun**: A fast JavaScript runtime, bundler, and package manager.
+- **Next.js 15**: The latest version of the popular React framework.
+- **Shadcn/ui**: A collection of beautifully designed, accessible, and customizable UI components.
+- **Tailwind CSS**: A utility-first CSS framework for rapid UI development.
+- **ESLint and Prettier**: For code linting and formatting, to ensure code quality and consistency.
+- **Husky and lint-staged**: To run linters on staged files before committing.
+- **bun**: A fast JavaScript runtime, bundler, and package manager.
 
 ## Built With
 
--   [Next.js](https://nextjs.org/)
--   [React](https://reactjs.org/)
--   [Shadcn/ui](https://ui.shadcn.com/)
--   [Tailwind CSS](https://tailwindcss.com/)
--   [TypeScript](https://www.typescriptlang.org/)
--   [bun](https://bun.sh/)
+- [Next.js](https://nextjs.org/)
+- [React](https://reactjs.org/)
+- [Shadcn/ui](https://ui.shadcn.com/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [bun](https://bun.sh/)
 
 ## Getting Started
 
@@ -30,8 +30,8 @@ To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 
--   Node.js (v18 or higher)
--   bun
+- Node.js (v18 or higher)
+- bun
 
 ### Installation
 
@@ -74,15 +74,15 @@ bun start
 
 ## Available Scripts
 
--   `dev`: Starts the development server.
--   `build`: Builds the application for production.
--   `start`: Starts the application in production mode.
--   `lint`: Runs ESLint to find and fix problems in your code.
--   `lint:fix`: Runs ESLint and Prettier to fix problems in your code.
--   `lint:strict`: Runs ESLint with strict rules.
--   `format`: Formats the code with Prettier.
--   `format:check`: Checks if the code is formatted with Prettier.
--   `prepare`: Installs Husky.
+- `dev`: Starts the development server.
+- `build`: Builds the application for production.
+- `start`: Starts the application in production mode.
+- `lint`: Runs ESLint to find and fix problems in your code.
+- `lint:fix`: Runs ESLint and Prettier to fix problems in your code.
+- `lint:strict`: Runs ESLint with strict rules.
+- `format`: Formats the code with Prettier.
+- `format:check`: Checks if the code is formatted with Prettier.
+- `prepare`: Installs Husky.
 
 ## Contributing
 
