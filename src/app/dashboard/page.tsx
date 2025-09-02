@@ -4,7 +4,7 @@ import { Separator } from '@/components/ui/separator';
 import { SearchParams } from 'nuqs/server';
 
 export const metadata = {
-  title: 'Dashboard: Products'
+  title: 'Dashboard'
 };
 
 type pageProps = {
